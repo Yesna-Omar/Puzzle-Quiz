@@ -1,11 +1,12 @@
 import './App.css'
-import Navbar from './Component/Navbar'
+import StyledApp from './Component/styled/AppStyled'
 
 function App() {
 
   return (
     <>
-    <Navbar />
+    {/* <p>test</p> */}
+    <StyledApp > Hello world </StyledApp>
     </>
   )
 }
