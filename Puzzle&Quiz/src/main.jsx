@@ -5,17 +5,7 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import App from './App.jsx'
 import './index.css'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
 
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Navbar />
-//   },
-// ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

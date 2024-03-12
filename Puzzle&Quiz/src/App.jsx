@@ -1,12 +1,17 @@
-import './App.css'
-import StyledApp from './Component/styled/AppStyled'
+import './App.css';
+// import MainPage from './Component/MainPage'
+import StyledApp from './Component/styled/AppStyled';
+// import RouterComponent from './Component/NavigationBar';
+import CrosswordTest from './Component/Crossword';
 
 function App() {
 
   return (
     <>
-    {/* <p>test</p> */}
-    <StyledApp > Hello world </StyledApp>
+    <StyledApp ></StyledApp>
+     {/* < RouterComponent/> */}
+     {/* < MainPage /> */}
+     < CrosswordTest />
     </>
   )
 }
